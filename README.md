@@ -6,31 +6,32 @@
 2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
 3. in the terminal, create a PHY407 (or whatever) folder and go there:
 
-`mkdir PHY407`
+  `mkdir PHY407`
 
-`cd PHY407`
+  `cd PHY407`
 
 4. In there, clone the repo of my lectures:
 
-`git clone https://github.com/PHY407-UofT/lectures.git`
+  `git clone https://github.com/PHY407-UofT/Lectures-2020.git`
 
-* This should create a new folder called `lectures`, in which my lecture notes will be located.
+  This should create a new folder called `Lectures-2020`, in which my lecture notes will be located.
 
 ## Refreshing the lecture notes
 
-The lectures folders are still empty, because I will probably change the content from last year
-As the class progresses, I will of course add or modify lectures, correct typos, etc.
+At the beginning of the term, you have (had) my notes of 2018. As the class progresses, I will of course add or modify them, correct typos, etc.
 
-5. To get the latest updates, repeat steps 1-3 above.
-6. If you want to modify the notebooks and keep your mods while refreshing my own content, I suggest you create your own "fork" and work on it. You will work on your fork, and I will still dispense my wisdom through my original project. How to nagivate between forks, remotes, etc? I am afraid you are going to have to look it up yourself.
-7. If you just want to have my content up-to-date, execute code, and then wait for my next delivery, just type
+5. To get the latest updates, start by repeating steps 1-3 above.
+6. If you just want to play around with the notes a little in-between two updates but want your repository to closely match what I have on GitHub, enter the command 
 
-`git fetch`
+  `git fetch --all`
+  `git reset --hard origin/master`
 
-in the Terminal, where you left at the end of step 3.
+  in the Terminal, where you left at the end of step 5, whenever you want to re-align your notes with mine.
+
+7. If you want to be more fancy, modify the notebooks significantly and keep your modifications while keeping up-to-date with my content, I suggest you create your own "fork" and work on it. You can then sync your fork with my repository by following these instructions: https://help.github.com/en/articles/syncing-a-fork
 
 ## Opening a Jupyter notebook:
 
 8. Repeat steps 1-3 above.
-9. Repeat step 7 above, probably.
+9. Repeat step 6 or 7 above, probably.
 10. You can navigate to the Jupyter file, using the graphical interface of the home menu of syzygy. You are looking for a `.ipynb` file.
