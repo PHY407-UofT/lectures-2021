@@ -5,4 +5,5 @@
 *.dvi
 *.ps
 *.zip
+*.pdf
 .ipynb_checkpoint/*
