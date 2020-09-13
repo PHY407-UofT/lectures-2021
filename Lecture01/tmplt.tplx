@@ -1,0 +1,13 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{Nicolas Grisouard, nicolas.grisouard@utoronto.ca}
+((* endblock author *))
+
+((* block date *))
+\date{14 September 2020}
+((* endblock date *))
+
+((* block title *))
+\title{PHY407 -- University of Toronto \\ Lecture 1: Phython Basics}
+((* endblock title *))
