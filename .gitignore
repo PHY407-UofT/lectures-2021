@@ -1,4 +1,5 @@
 *.pptx
+*.odg
 *.tex
 *.aux
 *.log
@@ -6,4 +7,5 @@
 *.ps
 *.zip
 *.pdf
+.ipynb_checkpoint
 .ipynb_checkpoint/*
