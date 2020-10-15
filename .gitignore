@@ -7,5 +7,5 @@
 *.ps
 *.zip
 *.pdf
-.ipynb_checkpoint
-.ipynb_checkpoint/*
+.ipynb_checkpoints
+.ipynb_checkpoints/*
