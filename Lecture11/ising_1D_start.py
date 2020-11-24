@@ -1,7 +1,7 @@
 # This program calculates the total energy and magnetization
 # for a 1D Ising model with N dipoles
 # Author: Nico Grisouard, University of Toronto
-# Date: 20 November 2018
+# Date: 24 November 2020
 
 # import modules
 import numpy as np
