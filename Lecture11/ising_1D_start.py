@@ -8,15 +8,16 @@ import numpy as np
 from random import random, randrange
 
 
-def energyfunction(dipoles):
+def energyfunction(J_, dipoles):
     """ function to calculate energy """
-    energy = -np.sum(dipoles[0:-1]*dipoles[1:])
+    energy = -J_*np.sum(dipoles[0:-1]*dipoles[1:])
     return energy
 
-# define function for acceptance probability
 
-
-# define function for magnetization
+def acceptance(ARGUMENTS):
+    """ Function for acceptance probability; to be completed """
+    # Do stuff here
+    return result  # result is True of False
 
 
 # define constants
@@ -26,25 +27,25 @@ J = 1.0
 num_dipoles = 100
 N = 100
 
-# generate array of dipoles
-dipoles = np.ones(num_dipoles, int)
-energy = []
-magnet = []
+# generate array of dipoles and initialize diagnostic quantities
+dipoles = np.ones(num_dipoles, int)  # hint: this will not work
+energy = []  # empty list; to add to it, use energy.append(value)
+magnet = []  # empty list; to add to it, use magnet.append(value)
 
-E = energyfunction(dipoles)
+E = energyfunction(J, dipoles)
 energy.append(E)
-magnet.append()
+magnet.append(sum(dipoles))
 print(dipoles)
 
 for i in range(N):
-    picked = randrange(0, num_dipoles)
-    dipoles[picked] *= -1
-    Enew = energyfunction(dipoles)
+    picked = randrange(num_dipoles)  # choose a victim
+    dipoles[picked] *= -1  # propose to flip the victim
+    Enew = energyfunction(J, dipoles)  # compute Energy of proposed new state
 
     # calculate acceptance probability
     accepted = acceptance(Enew, E,)
 
-# store energy and magnetization
+    # store energy and magnetization
 
 
 # plot energy, magnetization
