@@ -1,3 +1,13 @@
+# Authorship
+
+Lecture notes are not like research articles or books. An instructor inherits a sets of notes from a colleague, and re-uses a lot of it, saving time, perpetuating departmental traditions, and allowing students to benefit from tried and tested material. Also, the goal is to explicitely transmit students old knowledge, not create new one. As such, I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from notes, written by previous colleagues who taught PHY407, "Computational Physics", at the University of Toronto. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
+
+Here however, to ease my student's access to these notes, I decided to make this repository public, while sometimes re-using the exact same words of my previous colleagues. I therefore need to acknoledge my "co-authors":
+
+* Sabine Stanley, now at Johns Hopkins University (taught PHY407 in 2013-14),
+* Paul Kushner (taught PHY407 in 2015-17),
+and perhaps more (feel free to reach out to be added on the list).
+
 # Instructions to use this repository with syzygy
 
 ## If first cloning into syzygy:
@@ -12,13 +22,13 @@
 
 4. In there, clone the repo of my lectures:
 
-  `git clone https://github.com/PHY407-UofT/Lectures-2020.git`
+  `git clone https://github.com/PHY407-UofT/lectures-2021.git`
 
-  This should create a new folder called `Lectures-2020`, in which my lecture notes will be located.
+  This should create a new folder called `lectures-2021`, in which my lecture notes will be located.
 
 ## Refreshing the lecture notes
 
-At the beginning of the term, you have (had) my notes of 2018. As the class progresses, I will of course add or modify them, correct typos, etc.
+At the beginning of the term, you have (had) my notes of 2020. As the class progresses, I will of course add or modify them, correct typos, etc.
 
 5. To get the latest updates, start by repeating steps 1-3 above.
 6. If you just want to play around with the notes a little in-between two updates but want your repository to closely match what I have on GitHub, enter the command 
