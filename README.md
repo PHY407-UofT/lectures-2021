@@ -6,6 +6,7 @@ Here however, to ease my student's access to these notes, I decided to make this
 
 * Sabine Stanley, now at Johns Hopkins University (taught PHY407 in 2013-14),
 * Paul Kushner (taught PHY407 in 2015-17),
+
 and perhaps more (feel free to reach out to be added on the list).
 
 # Instructions to use this repository with syzygy
